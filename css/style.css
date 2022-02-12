@@ -2,10 +2,47 @@
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* header */
+
+header{
+   height: 80px;
+   width: 100vw;
+   background-color: bisque;
+   display: flex;
+}
+
+header>a{
+   width: 30%;
+}
+
+header a img{
+   width:auto;
+   height: 100%;
+}
+
+.links{
+   width: 70%;
+   display: flex;
+   align-items: center;
+}
+
+.links a{
+   margin-right: 15px;
+   color: black;
+   text-decoration: none;
+   font-weight: 700;
+}
+
+.links a:hover{
+   text-decoration: underline;
 }
 
 .container{
-   width: 100vw;
+   width: 70vw;
+   margin: 0 auto;
 }
 
 .container img{
